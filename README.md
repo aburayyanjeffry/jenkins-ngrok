@@ -110,11 +110,13 @@ Started by GitHub push by ...
 
 ## 🧱 Suggested Folder Structure
 
+```bash
 project/
 ├── Dockerfile
 ├── Jenkinsfile
 ├── index.html
 ├── README.md
 └── docs/
+```
     └── images/
 
