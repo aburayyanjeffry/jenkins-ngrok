@@ -1,6 +1,6 @@
 # 📡 Jenkins + ngrok GitHub Webhook Setup Guide
 
-This guide explains how to expose a local Jenkins server using ngrok and trigger builds automatically from GitHub webhooks.
+This guide explains how to expose a local Jenkins server using ngrok and trigger builds automatically from GitHub webhooks. The Jenkinsfile will create a pipeline that will manage an Nginx on Docker. 
 
 ---
 
