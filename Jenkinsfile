@@ -3,12 +3,20 @@ pipeline {
 
     stages {
 
+        
         stage('Clone Success') {
             steps {
                 echo 'Git clone successful!'
             }
         }
-
+        
+        stage('Debug PATH') {
+          steps {
+            sh 'echo $PATH'
+            sh 'which docker || true'
+          }
+        }
+        
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t mywebsite:latest .'
